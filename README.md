@@ -1,6 +1,6 @@
 # DomainBed-v2
 
-Official repo for CVPR 2024 paper "Rethinking the Evaluation Protocol of Domain Generalization" \[[arxiv](https://arxiv.org/abs/2212.00992)\] \[[paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Yu_Rethinking_the_Evaluation_Protocol_of_Domain_Generalization_CVPR_2024_paper.pdf)\].
+Official repo for CVPR 2024 paper "Rethinking the Evaluation Protocol of Domain Generalization" \[[arxiv](https://arxiv.org/pdf/2305.15253)\] \[[paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Yu_Rethinking_the_Evaluation_Protocol_of_Domain_Generalization_CVPR_2024_paper.pdf)\].
 
 This repo is built upon [DomainBed](https://github.com/facebookresearch/DomainBed) and [SWAD](https://github.com/khanrc/swad). 
 
