@@ -1,0 +1,19 @@
+{
+    "batch_size": {"_type": "choice", "_value": [32]},
+    "lr": {"_type": "loguniform", "_value": [1e-5, 3e-4]},
+    "weight_decay": {"_type": "loguniform", "_value": [1e-6, 1e-2]},
+    "penalty_anneal_iters": {"_type": "randint", "_value": [1, 5000]},
+    "lambda": {"_type": "loguniform", "_value": [1e1, 1e4]},
+    "ema": {"_type": "uniform", "_value": [0.9, 0.99]},
+    "rsc_f_drop_factor": {"_type": "uniform", "_value": [0, 0.5]},
+    "rsc_b_drop_factor": {"_type": "uniform", "_value": [0, 0.5]},
+    "irm_lambda":  {"_type": "loguniform", "_value": [1e-5, 1e-1]},
+    "irm_penalty_anneal_iters": {"_type": "randint", "_value": [1, 10000]},
+    "groupdro_eta":  {"_type": "loguniform", "_value": [1e-3, 1e-1]},
+    "mmd_gamma": {"_type": "loguniform", "_value": [1e-1, 1e1]},
+    "mixup_alpha": {"_type": "loguniform", "_value": [1e-1, 1e1]},
+    "meta_lr": {"_type": "choice", "_value": [0.05, 0.1, 0.5]},
+    "sag_w_adv":  {"_type": "loguniform", "_value": [1e-2, 1e1]},
+    "n_steps_bn": {"_type": "choice", "_value": [500]},
+    "ms_alpha": {"_type": "choice", "_value": [0.1, 0.2, 0.3]}
+}
